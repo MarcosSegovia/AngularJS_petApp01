@@ -1,2 +1,3 @@
 # AngularJS_petApp01
-First attemp in having a look at AngularJS
+Simple Html view
+First attemp in having a look at AngularJS: ng-init, ng-model, ng-repeat and ng-click
