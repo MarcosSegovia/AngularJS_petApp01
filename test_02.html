@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS_test2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+</head>
+<body>
+    TYPE SOMETHING
+    <input type="text" data-ng-model="plainText">
+    OR
+    <input type="button" data-ng-click="plainText='marcossegovia.com';" value="Push here !">
+<br>
+
+<br>
+SELECT NUMBER:
+<select data-ng-model="selectedField">
+    <option value="one">1</option>
+    <option value="two">2</option>
+    <option value="three">3</option>
+    <option value="four">4</option>
+    <option value="five">5</option>
+</select>
+
+
+    <h2>{{plainText}} - {{selectedField}}</h2>
+</body>
+</html>
